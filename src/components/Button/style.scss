@@ -1,0 +1,15 @@
+@import 'styles/variables';
+
+.Button {
+  background-color: $color-green;
+  padding: 15px 25px;
+  font-size: 15px;
+  display: block;
+  border: none;
+  color: white;
+  margin: 30px auto 100px;
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: darken($color-green, 5%);
+  }
+}

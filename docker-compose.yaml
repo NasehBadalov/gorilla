@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  web:
+    build:
+      context: .
+      args:
+        react_app_base_url: http://localhost:8080/api/v1
+    ports:
+      - "3000:3000"

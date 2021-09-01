@@ -1,0 +1,11 @@
+@import 'src/styles/variables';
+
+.HomeTitle {
+  padding-top: 18vh;
+  padding-bottom: 24px;
+  &__text {
+    color: $color-green;
+    font-size: 26px;
+    font-weight: 700;
+  }
+}

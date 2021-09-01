@@ -1,0 +1,19 @@
+.QuestionBlock {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  &__title {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &-item {
+      margin-bottom: 8px;
+      width: 49.5%;
+      gap: 3px;
+    }
+  }
+}
